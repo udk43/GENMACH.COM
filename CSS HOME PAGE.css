@@ -1,0 +1,119 @@
+body {
+    background-color: #d0e7ff; /* soft blue background */
+    font-family: Arial, sans-serif;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main title */
+#welcome-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #b30000;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Subheading */
+h4 {
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Button-like link */
+.btn-link {
+    background-color: navy;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-link:hover {
+    background-color: blue;
+}
+
+/* Centered image */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 90%;
+}
+
+/* Horizontal line style */
+hr {
+    margin: 30px auto;
+    width: 80%;
+    border: 1px solid #999;
+}
+
+/* Products section */
+.products-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+/* Each product */
+.product-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+/* Product name */
+.product-card p {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Form section */
+form {
+    background-color: white;
+    max-width: 400px;
+    margin: 0 auto 50px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Labels and inputs */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+}
+
+/* Submit button */
+form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
